@@ -1,9 +1,61 @@
-# CS-305-Software-Security
+# 🔐 **CS-305 Software Security: Artemis Financial Vulnerability Assessment**
 
-Hello everyone,
+Welcome to the **CS-305 Software Security** repository! In this project, I worked on ensuring the **security of Artemis Financial's software**, a financial services company, by identifying and mitigating security vulnerabilities. The primary goal was to protect sensitive data from unauthorized access and ensure that the system remains secure under all circumstances.
 
-A financial company named Artemis Financial aims to provide comprehensive financial solutions catered to the diverse requirements of their customers. In order to ensure that the financial services they provided were secured by eliminating all possible access, Armetis Financial were concerned that they might otherwise face the risk of unauthorised access where data was transferred between users securily. In addition to protecting their financial services from unauthorised access, I also conducted tests to find code vulnerabilities. If the software could be breached this would still expose the staff and clients of Artemis, which is why it was important to ensure that the code was as secure as possible. It is advisable to write secure code that by its nature eliminates the weak points a hacker might use to infiltrate; this reduces the risk of security breaches. If Artemis' software held credit card or banking details, securing the system can increase their credibility and generate trust actively by clients. This leads to the opportunity to attract more customers in the long-run by promoting a well-secured financial based software system.
+## 📚 **Project Overview**
 
- As a vulnerability assessment, the one thing that really stumped me was false positives. I generated a SSL certificate and used HTTP posts for added security. Future Mitigation For Vulnerabilities: To move to the next phase of the vulnerability assessment and ensure the vulnerabilities had been mitigated would be to make sure there was no false positives. Running the project over and over, and performing every command check reliably verifying the code and application which would mitigate any risk. After I refactored the code, I ran the project to search for any new vulnerabilities future work viewing projects in the web browser in Eclipse would prove to be a necessary tool to reinstate files.
+Artemis Financial offers comprehensive financial solutions to its customers, but with the nature of financial transactions, securing their systems is paramount. The project involved identifying vulnerabilities in their software, testing for potential breaches, and refactoring the code to improve its security. This project was crucial in eliminating weak points that could potentially be exploited by hackers, ensuring the integrity and confidentiality of Artemis Financial’s services.
 
- Another product higher on my list is my Vulnerability Assessment Report: I have located and interpreted important security information to write this. My report shows I know how to code safely, emphasising my abilities, my knowledge and the skills and experience I could show to a new employer when applying for a job in software security.
+### **Key Project Goals:**
+- **Secure Data Transfer**: Ensuring secure data transmission between users.
+- **Vulnerability Testing**: Identifying and mitigating vulnerabilities in the software.
+- **Eliminating False Positives**: Running repeated tests to ensure that vulnerabilities are accurately identified and eliminated.
+- **Enhancing System Credibility**: Securing the software to build trust and credibility with customers, which is critical for retaining and attracting clients in the financial sector.
+
+## 🛡️ **Security Measures Implemented**
+
+- **SSL Certificate**: Added to encrypt data transfers and prevent unauthorized access.
+- **HTTP POST Requests**: Implemented for secure data transmission between clients and the server.
+- **Vulnerability Scanning**: I used various tools to perform vulnerability scanning on the system and identify weak points that could be exploited.
+- **Code Refactoring**: Refactored the code to fix identified vulnerabilities and improve its overall security.
+
+## 🧪 **Vulnerability Assessment Process**
+
+### **Challenges Encountered:**
+The vulnerability assessment involved a deep dive into the system's security, but one significant challenge was handling **false positives**. False positives can give a misleading impression of a vulnerability being present when it actually isn’t, which could lead to unnecessary efforts being spent on fixing non-issues. To combat this, I generated an **SSL certificate** and used **HTTP POST requests** to ensure secure communication. I then ran thorough tests to identify any false positives and confirmed that each vulnerability identified was valid.
+
+### **Future Mitigation:**
+To continue improving the security of the system, the next steps in the vulnerability assessment process include:
+1. **Eliminating False Positives**: Running additional tests to ensure that the system is free from false positives and that only real vulnerabilities are being addressed.
+2. **Refining Security Measures**: Ensuring all security features are configured correctly to avoid any potential vulnerabilities slipping through the cracks.
+3. **Continuous Monitoring**: Setting up continuous monitoring systems to detect new vulnerabilities as they emerge, and applying timely patches.
+
+## 📝 **Vulnerability Assessment Report**
+
+A key deliverable from this project was the **Vulnerability Assessment Report**, which provides an in-depth analysis of the identified vulnerabilities and the steps taken to resolve them. This report:
+- **Demonstrates secure coding practices**: I ensured that best practices for secure coding were followed to eliminate potential weak points.
+- **Highlights critical vulnerabilities**: The report identifies critical vulnerabilities and describes the steps taken to mitigate them.
+- **Showcases my skills**: The report reflects my knowledge of software security, including my ability to identify, analyze, and mitigate security risks.
+
+## 🔧 **Tools & Technologies Used**
+
+- **Eclipse IDE**: For running and testing the project, as well as handling the code refactoring process.
+- **SSL Certificate**: For securing data transfer.
+- **HTTP POST Requests**: To ensure secure communication between clients and the server.
+- **Security Vulnerability Scanners**: Various tools used for scanning and identifying security weaknesses in the software.
+- **Version Control**: Git and GitHub for managing code changes and tracking progress.
+
+## 📈 **Future Work & Enhancements**
+
+- **Advanced Security Features**: Implementing multi-factor authentication and encryption for sensitive data.
+- **Extended Vulnerability Scanning**: Continuous vulnerability scanning to ensure long-term system integrity.
+- **Refinement of User Access Control**: Adding more granular controls to ensure that only authorized personnel can access sensitive financial data.
+
+## 📬 **Contact Me**
+- 💬 Reach out at [nick.wyrwas@outlook.com](mailto:nick.wyrwas@outlook.com)
+- 🌐 Check out my [LinkedIn](https://www.linkedin.com/in/nicholas-wyrwas/)
+- 🛠 Explore more of my projects on [GitHub](https://github.com/nwyrwas)
+
+---
+
+**Thank you for reviewing this project!** I’m eager to share my findings and improvements in software security. Feel free to contact me with any feedback or questions. 🔒
